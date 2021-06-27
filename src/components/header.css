@@ -1,0 +1,13 @@
+.navegator{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.navegator-list {
+  
+}
+.navegator-list__item {
+  
+}
+.navegator-list__item__link {
+  text-decoration: none;
+}
