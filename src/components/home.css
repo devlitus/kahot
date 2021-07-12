@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+}
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  box-shadow: 2px 3px 10px grey; 
+}
+.card-body {
+  font-size: 2em;
+}
+.title {
+  color: #3f3d56;
+  font-size: 6em;
+}
+.card-image {
+  width: 60%;
+  /* height: 60%; */
+}
+.card:hover {
+  cursor: pointer;
+}
